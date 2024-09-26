@@ -2,8 +2,8 @@
 	"name" : "max8-standalone",
 	"version" : 1,
 	"creationdate" : 3810131072,
-	"modificationdate" : 3810176942,
-	"viewrect" : [ 25.0, 111.0, 300.0, 500.0 ],
+	"modificationdate" : 3810185664,
+	"viewrect" : [ 275.0, 296.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -19,11 +19,20 @@
 		}
 ,
 		"code" : 		{
+			"tailwind.config.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server",
+					"projectrelativepath" : "./server"
+				}
+
+			}
 
 		}
 ,
 		"data" : 		{
-			"settings.json" : 			{
+			"package-lock.json" : 			{
 				"kind" : "json",
 				"local" : 1,
 				"singleton" : 				{
@@ -33,40 +42,55 @@
 
 			}
 ,
-			"tsconfig.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"package-lock.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"package.json" : 			{
 				"kind" : "json",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server",
+					"projectrelativepath" : "./server"
+				}
+
+			}
+,
+			"biome.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server",
+					"projectrelativepath" : "./server"
+				}
+
 			}
 
 		}
 ,
 		"other" : 		{
-			"README.md" : 			{
-				"kind" : "file",
-				"local" : 1
+			"styles.css" : 			{
+				"kind" : "stylesheet",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server/src",
+					"projectrelativepath" : "./server/src"
+				}
+
 			}
 ,
-			"server.ts" : 			{
+			"root.ts" : 			{
 				"kind" : "file",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server/src",
+					"projectrelativepath" : "./server/src"
+				}
+
 			}
 ,
 			"main.ts" : 			{
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server",
-					"projectrelativepath" : "./server"
+					"bootpath" : "~/workspace/max8-standalone/max8-standalone/server/src",
+					"projectrelativepath" : "./server/src"
 				}
 
 			}

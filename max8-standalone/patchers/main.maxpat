@@ -85,10 +85,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 46.0, 551.0, 38.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"selector" : ""
-					}
-,
 					"text" : "gestalt"
 				}
 
@@ -157,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 47.0, 332.0, 251.0, 20.0 ],
+					"patching_rect" : [ 47.0, 332.0, 316.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
@@ -167,7 +163,7 @@
 						"watch" : 0
 					}
 ,
-					"text" : "node.script main.ts @options --import tsx @autostart 1"
+					"text" : "node.script src/main.ts @options --import tsx @autostart 1 @restart 1"
 				}
 
 			}
@@ -613,6 +609,21 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "jweb",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 80.5, 73.0, 633.0, 467.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 80.5, 73.0, 633.0, 467.0 ],
+					"rendermode" : 0,
+					"url" : "http://localhost:3000"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -818,8 +829,8 @@
 			}
 , 			{
 				"name" : "main.ts",
-				"bootpath" : "~/workspace/max8-standalone/max8-standalone/server",
-				"patcherrelativepath" : "../server",
+				"bootpath" : "~/workspace/max8-standalone/max8-standalone/server/src",
+				"patcherrelativepath" : "../server/src",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
