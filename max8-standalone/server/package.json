@@ -3,6 +3,7 @@
   "main": "src/main.ts",
   "scripts": {
     "start": "tsx src/main.ts",
+    "dev": "tailwindcss -i src/styles.css -o ./public/styles.css --watch",
     "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --minify"
   },
   "dependencies": {

@@ -24,10 +24,10 @@ const Top: FC<{ messages: string[] }> = (props: {
   return (
     <Layout>
       <main class="w-screen h-screen bg-base-100 flex flex-col items-center justify-center gap-8">
-      <h1 class="text-6xl">Hello Max8!</h1>
+      <h1 class="text-6xl">Hello Max8!!</h1>
       <div class="w-full flex flex-row gap-6 justify-center items-center px-4">
         {props.messages.map((message) => {
-          return <button class="btn btn-wide">{message}</button>
+          return <button class="btn btn-xl btn-primary font-mono">{message}</button>
         })}
       </div>
       </main>
